@@ -1,0 +1,130 @@
+.bodyq {
+    background-image: url(/assets/images/bg.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+}
+
+.headerq {
+    width: auto;
+    height: 100px;
+    background-color: #606C5D;
+    border: groove 10px black;
+    border-radius: 30px;
+}
+
+.picheaderq {
+    height: 60px;
+    width: auto;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+@font-face {
+    font-family: 'fontq1' ;
+    src: url(/assets/fonts/ITCEDSCR.TTF);
+}
+@font-face {
+    font-family: 'fontq2';
+    src: url(/assets/fonts/SCRIPTBL.TTF);
+}
+
+.header-text-style {
+    font-family: fontq1 ;
+    font-size: 50px;
+    margin-top: -63px;
+    display: flexbox;
+    margin-left: 100px;
+    color: #C38154 ;
+    transition: color 1s ease, transform 1s ease, text-shadow 1s ease;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text-style:hover {
+    color: gold;
+    text-shadow: 5px 5px 20px rgba(143, 237, 1, 0.814);
+    transform: scale(1);
+    cursor: default;
+}
+
+.containerq {
+ background-color: rgba(60, 60, 60, 0.507);
+ width: 1000px;
+ height: auto;
+ display: flex;
+ flex-direction: column;
+ margin-left: 300px;
+ margin-top: 30px;
+backdrop-filter: blur(5px);
+border-radius: 30px;
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.artistsimgq {
+    border-radius: 100%;
+    height: 270px;
+    width: 270px;
+    object-fit: cover;
+    margin-top: -70px;
+    margin-left: 70px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    border: inset 5px gold;
+    transition: color 1s ease, transform 1s ease;
+    margin-bottom: 200px;
+
+}
+
+
+.artistsimgq:hover {
+    transform: scale(1.2);
+}
+
+.artists-name-styleq {
+    margin-left: 470px;
+    display: flex;
+    margin-top: 70px;
+    font-family: fontq2;
+    font-size: 35px;
+    color: rgb(112, 128, 233);
+    text-shadow: 1px -1px 2px rgb(0, 0, 0);
+    transition: color 1s ease, transform 1s ease, text-shadow 1s ease;
+}
+
+.artists-name-styleq:hover {
+    color: rgb(210, 6, 105);
+    text-shadow: 1px 1px 20px rgb(255, 255, 255);
+    transform: scale(1);
+    cursor: default;
+}
+
+.iframemusicq {
+    width:400px;
+    max-width:660px;
+    overflow:hidden;
+    border-radius:10px;
+    margin-left: 80px;
+    margin-bottom: 230px;
+}
+
+.containerq div :nth-child(3) {
+margin-left: 435px;
+margin-top: -200px;
+
+}
+
+hr {
+    margin-top: -200px;
+}
+
+.containerq :nth-child(3) {
+    margin-top: 60px;
+    margin-left: 435px;
+}
+
+
+.containerq :nth-child(6) {
+    margin-bottom: -227px;
+}
+
